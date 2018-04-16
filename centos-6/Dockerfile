@@ -1,3 +1,5 @@
 FROM centos:6
 
-RUN yum install gcc make rpm-build java-1.8.0-openjdk-devel -y
+RUN yum install -y gcc make rpm-build java-1.8.0-openjdk-devel epel-release && \
+    yum install -y python-pip && \
+    pip install boto3
