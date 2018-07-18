@@ -1,0 +1,7 @@
+# dist macros.
+
+%rhel 5
+%centos 5
+%centos_ver 5
+%dist .el5
+%el5 1
