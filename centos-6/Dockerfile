@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:6@sha256:a93df2e96e07f56ea48f215425c6f1673ab922927894595bb5c0ee4c5a955133
 
 COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
 
